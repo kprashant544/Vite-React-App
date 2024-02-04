@@ -1,0 +1,10 @@
+.footer-content{
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin-top: auto;
+    
+}

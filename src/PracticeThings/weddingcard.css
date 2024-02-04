@@ -1,0 +1,9 @@
+.wed-card{
+    display: flex;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    justify-content: center;
+
+}
+
