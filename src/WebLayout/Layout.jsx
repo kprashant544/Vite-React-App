@@ -63,7 +63,6 @@ function Layout() {
   return (
     <div>
       <Nav meet={meet} />
-
       <ArrayWithObj />
       <div className="card-section">
         {cards.map((card, index) => (
@@ -76,9 +75,10 @@ function Layout() {
         ))}
       </div>
       <Button />
-      <WeddingCard>
-        <h2>Wedding Card</h2>
+      <WeddingCard title={"Wedding Card"} descrip={"Wedding Of"}>
+        You are cordially invited to the
       </WeddingCard>
+
       <Footer />
     </div>
   );

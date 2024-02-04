@@ -1,9 +1,15 @@
 .wed-card{
     display: flex;
-    background-color: red;
+    background-color: rgb(101, 245, 255);
     color: white;
     border: 1px solid black;
-    justify-content: center;
-
+    align-items: center;
+    height: 500px;
+    width: 800px;
+    flex-direction: column;
 }
-
+.images{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
