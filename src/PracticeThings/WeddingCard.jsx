@@ -14,10 +14,10 @@ function WeddingCard(props) {
         </div>
         <div className="images">
           <div className="img-1">
-            <img src={ganesh} style={{ height: "250px", width: "250px" }} />
+            <img src={ganesh} style={{ height: "200px", width: "200px" }} />
           </div>
           <div className="img-2">
-            <img src={shuva} style={{ height: "250px", width: "250px" }} />
+            <img src={shuva} style={{ height: "200px", width: "200px" }} />
           </div>
         </div>
         {children} <br></br>

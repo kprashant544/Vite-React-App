@@ -1,16 +1,16 @@
 .wed-card{
     display: flex;
-    background-color: rgb(101, 245, 255);
-    color: white;
+    background-color: white;
     border: 1px solid black;
     border-radius: 8px;
     align-items: center;
-    /* height: 500px; */
-    width: 55%;
+    height: 900px; 
+    width: 65%;
     flex-direction: column;
     margin: auto;
-    /* background-image: url('border-1.png'); 
-    background-size: cover; */
+    background-image: url('1border.png'); 
+    background-size: cover; 
+    padding-top: 50px;
     
 }
 .images{
