@@ -3,13 +3,27 @@
     background-color: rgb(101, 245, 255);
     color: white;
     border: 1px solid black;
+    border-radius: 8px;
     align-items: center;
-    height: 500px;
-    width: 800px;
+    /* height: 500px; */
+    width: 55%;
     flex-direction: column;
+    margin: auto;
+    /* background-image: url('border-1.png'); 
+    background-size: cover; */
+    
 }
 .images{
     display: flex;
     justify-content: space-between;
     gap: 50px;
 }
+
+h2,h3,h4 {
+    color:black;
+}
+.dis1,.dis2,.dis3,.dis4{
+    margin-top: 9px;
+}
+
+
