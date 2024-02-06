@@ -1,8 +1,8 @@
 .wed-card{
     display: flex;
     background-color: white;
-    border: 1px solid black;
-    border-radius: 8px;
+    /* border: 1px solid black;
+    border-radius: 8px; */
     align-items: center;
     height: 900px; 
     width: 65%;
@@ -19,11 +19,13 @@
     gap: 50px;
 }
 
-h2,h3,h4 {
-    color:black;
-}
+
 .dis1,.dis2,.dis3,.dis4{
     margin-top: 9px;
+}
+
+.wed-card .wed h2{
+    padding-top: 60px;
 }
 
 

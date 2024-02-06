@@ -4,7 +4,6 @@ function WeddingCard(props) {
   const { children, title, descriptions, groom, bride, and } = props;
   const ganesh = "./ganesh-logo.png";
   const shuva = "./shuva-biwaha.png";
-  const bridegroom = "./bride-groom.png";
 
   return (
     <>
